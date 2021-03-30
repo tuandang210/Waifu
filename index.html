@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pha Ke Chrome Dino Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<video id="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
+    <source src="Zero Two - Dance (1080P-60FPS).mp4" type="video/mp4"/>
+</video>
+    <div id="container">
+        <div id="dino">
+            <img src="img/dino.png" alt="dino">
+        </div>
+        <div id="block">
+            <img src="img/block.png" alt="blocks">
+        </div>
+        <div id="road">
+            <img src="img/road.png" alt="road">
+        </div>
+        <div id="cloud">
+            <img src="img/cloud.jpg" alt="cloud">
+        </div>
+        <div id="score">Score <b>00</b></div>
+        <div id="gameOver">Game Over</div>
+    </div>
+    <div id="button">
+        <div>
+            <button type="button" id="tutorial"><b>Tutorial</b></button>
+            <button onclick="play()" ondblclick="stopMusic()">Music</button>
+            <button type="button" id="secret"><b>Secret</b></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
