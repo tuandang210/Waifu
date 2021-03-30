@@ -9,8 +9,6 @@ body {
 }
 
 #container {
-    /*background-image: url("img/background.jpg");*/
-    /*background-size: cover;*/
     height: 450px;
     width: 800px;
     position: relative;
