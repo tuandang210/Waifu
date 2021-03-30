@@ -68,7 +68,7 @@ body {
     height: 30px;
     width: 1200px;
     position: absolute;
-    bottom: 0;
+    bottom: 18px;
 }
 
 #container #road img {
